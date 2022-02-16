@@ -101,8 +101,8 @@ main.container {
 }
 
 .company-logo {
-	width: 15%;
-	height: 15%;
+	width: 20%;
+	height: 20%;
 }
 
 .heading-primary {
@@ -249,4 +249,16 @@ footer.site-footer {
 .social-media-icon:hover path {
 	cursor: pointer;
 	fill: #ffb964;
+}
+
+@media (max-width: 94em) {
+	html {
+		font-size: 55%;
+	}
+
+	.header-image {
+		overflow: visible;
+		margin-top: -5rem;
+		padding-left: 20rem;
+	}
 }
