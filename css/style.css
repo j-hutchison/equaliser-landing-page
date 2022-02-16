@@ -83,6 +83,7 @@ main.container {
 }
 
 .container {
+	position: relative;
 	max-width: 150rem;
 	padding-top: 6.4rem;
 	padding-left: 16rem;
@@ -122,11 +123,11 @@ main.container {
 .header-image-container {
 	position: absolute;
 	right: 30rem;
+	top: 1rem;
 	max-width: 31rem;
 }
 
 .header-image {
-	overflow: visible;
 	margin-top: -5rem;
 	padding-left: 20rem;
 }
@@ -253,12 +254,12 @@ footer.site-footer {
 
 @media (max-width: 94em) {
 	html {
-		font-size: 55%;
+		font-size: 40%;
 	}
 
 	.header-image {
-		overflow: visible;
 		margin-top: -5rem;
 		padding-left: 20rem;
+		width: 200%;
 	}
 }
