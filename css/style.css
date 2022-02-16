@@ -52,7 +52,7 @@ body {
 	gap: 20rem;
 
 	background-color: #fcfaf9;
-	background-image: url(/images/bg-main-desktop.png);
+	background-image: url(../images/bg-main-desktop.png);
 	background-position: 55% 40%;
 
 	font-family: "IBM Plex Sans", sans-serif;
