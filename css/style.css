@@ -50,6 +50,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 20rem;
+	align-items: center;
+	justify-content: center;
 
 	background-color: #fcfaf9;
 	background-image: url(../images/bg-main-desktop.png);
@@ -86,7 +88,6 @@ main.container {
 	position: relative;
 	max-width: 150rem;
 	padding-top: 6.4rem;
-	padding-left: 16rem;
 }
 
 .summary {
@@ -122,14 +123,9 @@ main.container {
 
 .header-image-container {
 	position: absolute;
-	right: 30rem;
-	top: 1rem;
+	left: 93rem;
+	top: -4rem;
 	max-width: 31rem;
-}
-
-.header-image {
-	margin-top: -5rem;
-	padding-left: 20rem;
 }
 
 .app-summary {
@@ -142,21 +138,23 @@ main.container {
 }
 .img-app {
 	position: absolute;
-	width: 26%;
-	top: -17rem;
-	left: 11rem;
+	width: 28.1%;
+	top: -21rem;
+	left: 10rem;
 }
 
 .img-app-summary-background {
 	height: 50%;
-	margin-right: 20rem;
-	padding-bottom: 25rem;
+	margin-top: -4rem;
+	padding-left: 33rem;
+	padding-right: 46rem;
+	padding-bottom: 17rem;
 }
 
 .app-details {
 	position: absolute;
-	top: 15rem;
-	right: 16rem;
+	top: 9rem;
+	right: 8.5rem;
 
 	display: flex;
 	flex-direction: column;
@@ -228,13 +226,14 @@ footer.site-footer {
 	display: flex;
 	gap: 8rem;
 	justify-content: space-between;
-	max-width: 134rem;
+	max-width: 110rem;
 	padding-bottom: 4.8rem;
 }
 .footer-text {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
+	font-weight: 400;
 	line-height: 1.8;
-	padding-right: 32rem;
+	padding-right: 20rem;
 }
 .contact-email {
 	text-decoration: none;
@@ -247,13 +246,13 @@ footer.site-footer {
 	list-style: none;
 }
 
-.social-media-icon:hover path {
+.social-media-icon img:hover {
 	cursor: pointer;
-	fill: #ffb964;
+	color: #ffb964;
 }
 
-@media (max-width: 94em) {
-	html {
+@media (max-width: 91em) {
+	/* html {
 		font-size: 40%;
 	}
 
@@ -261,5 +260,25 @@ footer.site-footer {
 		margin-top: -5rem;
 		padding-left: 20rem;
 		width: 200%;
+	} */
+
+	/* body {
+		align-items: unset;
+	} */
+}
+
+@media (max-width: 80em) {
+	/* html {
+		font-size: 40%;
 	}
+
+	.header-image {
+		margin-top: -5rem;
+		padding-left: 20rem;
+		width: 200%;
+	} */
+
+	/* body {
+		align-items: unset;
+	} */
 }
