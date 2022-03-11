@@ -209,7 +209,8 @@ main.container {
 	color: #fcfaf9;
 }
 
-.btn-black:hover {
+.btn-black:hover,
+.btn-black:active {
 	background-color: #66e2dc;
 }
 
@@ -218,7 +219,8 @@ main.container {
 	color: #191826;
 }
 
-.btn-white:hover {
+.btn-white:hover,
+.btn-white:active {
 	background-color: #ffb964;
 }
 
@@ -252,6 +254,9 @@ footer.site-footer {
 }
 
 @media (max-width: 70em) {
+	body {
+		background-image: url("../images/bg-main-tablet.png");
+	}
 	.container {
 		max-width: 70rem;
 	}
@@ -355,5 +360,102 @@ footer.site-footer {
 		font-size: 1.6rem;
 		line-height: 1.6;
 		padding-right: 23rem;
+	}
+}
+
+@media (max-width: 38em) {
+	body {
+		background-image: url("../images/bg-main-mobile.png");
+		background-position: 10rem -25rem;
+		width: 100%;
+		gap: 33.5rem;
+	}
+	.container {
+		width: 100%;
+	}
+	main.container {
+	}
+	.company-logo {
+		width: 39%;
+		height: 20%;
+	}
+	.site-header {
+		padding-right: 6rem;
+		gap: 2rem;
+	}
+	.site-header .company-logo {
+		margin-bottom: 4.4rem;
+	}
+	.heading-primary {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1.2;
+		letter-spacing: -0.45px;
+	}
+	.header-image-container {
+		display: none;
+	}
+	.summary {
+		margin-left: 2.4rem;
+		margin-right: 2.4rem;
+		margin-bottom: 4rem;
+	}
+	.summary-text {
+		font-size: 1.6rem;
+		font-weight: 400;
+		line-height: 1.6;
+	}
+	.app-summary {
+		margin-bottom: 10rem;
+	}
+	.img-app {
+		left: 8rem;
+		top: -10rem;
+		width: 55%;
+	}
+	.app-details {
+		max-width: unset;
+		top: 38rem;
+		left: 0;
+		padding: 4.8rem 3.6rem;
+		line-height: 1.55;
+	}
+
+	.img-app-summary-background {
+		left: 4.8rem;
+		top: 0;
+	}
+
+	.heading-secondary {
+	}
+
+	.premium-details {
+	}
+	.premium-plan {
+		margin-top: unset;
+		margin-bottom: unset;
+	}
+	.premium-plan span {
+	}
+	span.premium-price {
+	}
+
+	footer.site-footer {
+		position: relative;
+		margin-left: 2.4rem;
+		font-size: 1.6rem;
+	}
+	footer img.company-logo {
+		width: 39%;
+		height: 15%;
+	}
+	.footer-text {
+		padding-right: 7rem;
+	}
+
+	.social-icons {
+		position: absolute;
+		top: 22rem;
+		left: 0.24rem;
 	}
 }
